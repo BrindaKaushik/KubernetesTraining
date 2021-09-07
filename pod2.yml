@@ -3,7 +3,8 @@ kind: Pod
 metadata:
     name: pod2
     labels: 
-      app: helloWorld
+      - app: helloWorld
+      - isenable: true
       
 spec:
   containers:
