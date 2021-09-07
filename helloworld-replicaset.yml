@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata: 
   name: helloword-controller
-  app: helloworld
 spec:
   replicas: 10
   selector:
