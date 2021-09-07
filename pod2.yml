@@ -5,7 +5,6 @@ metadata:
     labels: 
       app: helloWorld
       isenable: true
-      
 spec:
   containers:
   - name: k8s-demo
