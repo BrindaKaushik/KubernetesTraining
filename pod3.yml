@@ -4,9 +4,9 @@ metadata:
     name: pod3
 spec:
   containers:
-  - name: nginx
+  - name: nginx-bri
     image: nginx:11.5
     ports:
     - containerPort: 80
-  - name: watcher:latest
+  - name: watcher-afakharany
     image: afakharany/watcher:latest   
