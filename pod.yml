@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: nginx-bri
-    imge: nginx
+    image: nginx
     ports:
-    - containerport: 80
+    - containerPort: 80
