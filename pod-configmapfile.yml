@@ -10,6 +10,6 @@ spec:
     env:
     - name: player_initial_lives
       valueFrom:
-        configMapRef:
+        configMapKeyRef:
           name: game-demo
           key: player_initial_lives
