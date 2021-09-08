@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: phytonpod
+spec:
+  containers:
+  - name: my-python-image
+    image: arjunachari12/my-python-image
+    ports:
+    - containerPort: 80
