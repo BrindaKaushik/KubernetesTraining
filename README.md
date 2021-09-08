@@ -26,3 +26,11 @@ Create Pod manifest
 Expose pod as service
 Create replica set, replicas 5
 Explore container logs, exec into container, edit
+  
+  
+  
+  kubectl rollout status deployment/helloworld-deployment
+  
+  kubectl set image deployment/helloworld-deployment k8s-demo=arjunachari12/k8s-demo:2
+
+  kubectl rollout undo deployment/helloworld-deployment
